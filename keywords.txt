@@ -1,0 +1,5 @@
+PIDController	KEYWORD1
+pidInit	KEYWORD2
+pidSetLimits	KEYWORD2
+pidCompute	KEYWORD2
+pidReset	KEYWORD2
