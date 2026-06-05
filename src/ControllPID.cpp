@@ -7,8 +7,8 @@ void pidInit(PIDController &pid, double Kp, double Ki, double Kd) {
     pid.integral = 0.0;
     pid.prevInput = 0.0;
     pid.prevTime = millis();
-    pid.outMin = -255.0; // Default limits
-    pid.outMax = 255.0;
+    pid.outMin = -999999.0; // Default limits
+    pid.outMax = 999999.0;
     pid.firstRun = true;
 }
 
