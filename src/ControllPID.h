@@ -3,7 +3,6 @@
 
 #include "Arduino.h"
 
-//Definizione della struttura dei dati
 struct PIDController{
     double Kp, Ki, Kd;
     double integral;
